@@ -8,10 +8,14 @@
 > - clinic employees
 > - visits
 
+## Schema Diagram
+![schema-diagram](https://user-images.githubusercontent.com/98527559/178287133-65027cbf-e0fd-4484-9b9b-e6fdef84961d.png)
+
 ## Built With
 
 - [x] Relation Database: PostgreSQL
 - [x] VS Code
+- [x] Schema Diagram: (drawSQL)[https://drawsql.app/]
 
 ## Getting Started
 
