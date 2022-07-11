@@ -15,7 +15,7 @@
 
 - [x] Relation Database: PostgreSQL
 - [x] VS Code
-- [x] Schema Diagram: (drawSQL)[https://drawsql.app/]
+- [x] Schema Diagram: [drawSQL](https://drawsql.app/)
 
 ## Getting Started
 
@@ -58,7 +58,7 @@ $ git clone git@github.com:mavericks-db/vet-clinic-database.git
 
 Kindly modify the files as needed.
 
-## Author
+## Authors
 
 👤 **Mavericks Balitaan** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
@@ -73,6 +73,10 @@ Kindly modify the files as needed.
 - Facebook: [![Facebook Badge](https://img.shields.io/badge/-mavericksdb-white?logo=Facebook&logoColor=1877F2&style=plastic)](https://www.facebook.com/mavericksdb/)
 
 - Gmail: [![Gmail Badge](https://img.shields.io/badge/-balitaanmavericks-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:balitaanmavericks@gmail.com)
+
+👤 **Baroka Irotori** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Baroka--wp-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Baroka-wp)
 
 ## 🤝 Contributing
 
