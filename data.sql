@@ -95,3 +95,7 @@ VALUES
 (9, 2, DATE '2020-08-03'),
 (10, 3, DATE '2020-05-24'),
 (10, 1, DATE '2021-01-11');
+
+-- Add an email column to your owners table
+ALTER TABLE owners
+ADD COLUMN email VARCHAR(120);
