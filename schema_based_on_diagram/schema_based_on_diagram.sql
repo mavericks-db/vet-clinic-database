@@ -37,3 +37,9 @@ CREATE TABLE invoice_items(
     invoice_id INT REFERENCES invoices(id),
     treatment_id INT REFERENCES treatments(id)
 );
+
+CREATE INDEX patients_id_idx ON patients(id);
+CREATE INDEX medical_histories_id_idx ON medical_histories(id);
+CREATE INDEX treatments_id_idx ON treatments(id);
+CREATE INDEX invoices_id_idx ON invoices(id);
+CREATE INDEX invoice_items_id_idx ON invoice_items(id);
