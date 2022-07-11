@@ -1,6 +1,6 @@
 /* Database schema to keep the structure of entire database. */
 
-CREATE DATABASE clinic;
+-- CREATE DATABASE clinic;
 
 CREATE TABLE patients (
     id INT PRIMARY KEY,
@@ -43,3 +43,11 @@ CREATE INDEX medical_histories_id_idx ON medical_histories(id);
 CREATE INDEX treatments_id_idx ON treatments(id);
 CREATE INDEX invoices_id_idx ON invoices(id);
 CREATE INDEX invoice_items_id_idx ON invoice_items(id);
+
+CREATE TABLE link_medical_histories_treatments (
+    medical_history_id INT REFERENCES medical_histories (id),
+    treatment_id INT REFERENCES treatments (id)
+);
+
+CREATE INDEX link_medical_histories_treatments_medical_history_id_idx ON link_medical_histories_treatments (medical_history_id);
+CREATE INDEX link_medical_histories_treatments_treatment_id_idx ON link_medical_histories_treatments (treatment_id);
