@@ -30,7 +30,7 @@ CREATE TABLE invoices(
 );
 
 CREATE TABLE invoice_items(
-    id INT,
+    id INT PRIMARY KEY,,
     unit_price DECIMAL,
     quantity INT,
     total_price DECIMAL,
@@ -39,12 +39,14 @@ CREATE TABLE invoice_items(
 );
 
 CREATE INDEX patients_id_idx ON patients(id);
+CREATE INDEX patients_name ON patients(name);
 CREATE INDEX medical_histories_id_idx ON medical_histories(id);
 CREATE INDEX treatments_id_idx ON treatments(id);
 CREATE INDEX invoices_id_idx ON invoices(id);
 CREATE INDEX invoice_items_id_idx ON invoice_items(id);
 
 CREATE TABLE link_medical_histories_treatments (
+    id INT PRIMARY KEY,
     medical_history_id INT REFERENCES medical_histories (id),
     treatment_id INT REFERENCES treatments (id)
 );
